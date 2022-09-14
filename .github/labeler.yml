@@ -1,0 +1,11 @@
+'packages:eslint-config':
+  - packages/eslint-config/*
+  - packages/eslint-config/**/*
+
+'packages:prettier-config':
+  - packages/prettier-config/*
+  - packages/prettier-config/**/*
+
+'packages:ts-config':
+  - packages/ts-config/*
+  - packages/ts-config/**/*
