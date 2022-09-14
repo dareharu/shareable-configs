@@ -1,0 +1,69 @@
+{
+  "name": "@dareharu/eslint-config",
+  "version": "1.0.0",
+  "description": "Shareable ESLint configuration for Dareharu project",
+  "author": "@dareharu",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./import": {
+      "import": "./dist/import.js",
+      "require": "./dist/import.mjs",
+      "types": "./dist/import.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/dareharu/shareable-configs/tree/main/packages/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dareharu/shareable-configs",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/dareharu/shareable-configs/issues"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsup",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@favware/cliff-jumper": "^1.8.7",
+    "@vitest/coverage-c8": "^0.23.2",
+    "tsup": "^6.2.3",
+    "vitest": "^0.23.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.3"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "keywords": [
+    "dareharu",
+    "eslint",
+    "eslint-config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*.js*",
+    "dist/**/*.mjs*",
+    "dist/**/*.d*"
+  ]
+}

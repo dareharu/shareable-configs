@@ -1,0 +1,55 @@
+{
+  "name": "@dareharu/prettier-config",
+  "version": "1.0.0",
+  "description": "Shareable prettier configuration for Dareharu project",
+  "author": "@dareharu",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/dareharu/shareable-configs/tree/main/packages/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dareharu/shareable-configs",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/dareharu/shareable-configs/issues"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsup",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@favware/cliff-jumper": "^1.8.7",
+    "@vitest/coverage-c8": "^0.23.2",
+    "tsup": "^6.2.3",
+    "vitest": "^0.23.2"
+  },
+  "keywords": [
+    "dareharu",
+    "prettier",
+    "prettier config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*.js*",
+    "dist/**/*.mjs*",
+    "dist/**/*.d*"
+  ]
+}

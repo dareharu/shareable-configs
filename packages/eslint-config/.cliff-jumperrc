@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/favware/cliff-jumper/main/assets/cliff-jumper.schema.json",
+  "name": "eslint-config",
+  "org": "dareharu",
+  "packagePath": "packages/eslint-config"
+}

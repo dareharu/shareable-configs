@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    ".commitlintrc.js",
+    ".eslintrc.js",
+    ".lintstagedrc.js",
+    ".prettierrc.js",
+    "vitest.config.ts",
+    "packages/**/*.mjs",
+    "packages/**/*.ts",
+    "scripts"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "build/**"]
+    },
+    "lint": {
+      "dependsOn": ["@dareharu/prettier-config#build", "@dareharu/eslint-config#build"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": ["coverage/**"]
+    },
+    "bump": {
+      "dependsOn": [],
+      "outputs": ["CHANGELOG.md"]
+    },
+    "check-update": {
+      "dependsOn": [],
+      "outputs": []
+    }
+  }
+}
