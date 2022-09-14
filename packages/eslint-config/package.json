@@ -11,13 +11,13 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.mjs",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.ms",
       "types": "./dist/index.d.ts"
     },
     "./import": {
-      "import": "./dist/import.js",
-      "require": "./dist/import.mjs",
+      "import": "./dist/import.mjs",
+      "require": "./dist/import.js",
       "types": "./dist/import.d.ts"
     }
   },

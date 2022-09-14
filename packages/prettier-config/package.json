@@ -10,8 +10,8 @@
     "npm": ">=8"
   },
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.mjs",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js",
     "types": "./dist/index.d.ts"
   },
   "sideEffects": false,
