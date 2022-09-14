@@ -1,6 +1,6 @@
 {
   "name": "@dareharu/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable prettier configuration for Dareharu project",
   "author": "@dareharu",
   "license": "MIT",
