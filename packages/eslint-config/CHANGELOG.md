@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@dareharu/eslint-config@1.0.3](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.0.2...@dareharu/eslint-config@1.0.3) - (2022-09-29)
+
+## 🐛 Bug Fixes
+
+- Enforce interface names do not begin with an 'I' (#9) ([4aa3d7d](https://github.com/dareharu/shareable-configs/commit/4aa3d7d9f17c72219faa9b5520661cd119437587))
+
 # [@dareharu/eslint-config@1.0.2](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.0.1...@dareharu/eslint-config@1.0.2) - (2022-09-14)
 
 ## 🐛 Bug Fixes
