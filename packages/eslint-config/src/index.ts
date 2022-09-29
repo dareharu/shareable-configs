@@ -244,7 +244,7 @@ export const eslintConfig = {
       {
         // Enforce that interface names do not begin with an 'I'
         custom: {
-          regex: '^[A-Z]',
+          regex: '^I[A-Z]',
           match: false
         },
         format: ['StrictPascalCase'],
