@@ -264,8 +264,8 @@ export const eslintConfig = {
       },
       {
         // Enforce that declared as being `const` in the top-level scope
-        // variable should be upper-cased
-        format: ['strictCamelCase', 'UPPER_CASE'],
+        // variable should be one of "uppercase, camelcase or pascalcase".
+        format: ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
         modifiers: ['const', 'global'],
         selector: ['variable', 'enumMember']
       },
