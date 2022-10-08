@@ -237,9 +237,8 @@ export const eslintConfig = {
         types: ['boolean']
       },
       {
-        // Enforce that typeLike names always fit 'StrictPascalCase'
         format: ['StrictPascalCase'],
-        selector: 'typeLike'
+        selector: ['typeLike', 'enumMember']
       },
       {
         // Enforce that interface names do not begin with an 'I'
