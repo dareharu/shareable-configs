@@ -255,6 +255,7 @@ export const eslintConfig = {
           match: false
         },
         format: ['strictCamelCase'],
+        leadingUnderscore: 'allow', // Sayakie note: let be allow unused variable should be start with _
         selector: ['variable', 'parameter', 'property']
       },
       {
