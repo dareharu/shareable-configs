@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@dareharu/eslint-config@1.1.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.0.3...@dareharu/eslint-config@1.1.0) - (2022-10-08)
+
+## 🐛 Bug Fixes
+
+- **eslint-config:** Unused variableLike selector flagged as invalid ([18fd1ce](https://github.com/dareharu/shareable-configs/commit/18fd1cecba483a6f846f08386189518508213053))
+
+## 📝 Documentation
+
+- **readme:** Align to center, add npm version ([be45dd2](https://github.com/dareharu/shareable-configs/commit/be45dd2f1790cff08fbe779e8390b1b3acae36cc))
+
+## 🚀 Features
+
+- **eslint-config:** Top-level variable can be `StrictPascalCase` format ([633cbdc](https://github.com/dareharu/shareable-configs/commit/633cbdc10ce199879e3b25ba2cab5d43b29acb4b))
+- **eslint-config:** `enumMember` can be `StrictPascalCase` format ([8dee697](https://github.com/dareharu/shareable-configs/commit/8dee6979bbaf6e50226d9d6ae1768c2bf8a1530a))
+
 # [@dareharu/eslint-config@1.0.3](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.0.2...@dareharu/eslint-config@1.0.3) - (2022-09-29)
 
 ## 🐛 Bug Fixes
