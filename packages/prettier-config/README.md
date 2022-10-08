@@ -1,10 +1,16 @@
+<div align="center">
+
 # @dareharu/prettier-config
 
 ### Shareable Prettier configuration for [Dareharu] projects.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/dareharu/eslint-config/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/dareharu/prettier-config/main/LICENSE)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@dareharu/prettier-config?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@dareharu/prettier-config)
+[![npm](https://img.shields.io/npm/v/@dareharu/prettier-config?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@dareharu/prettier-config)
 
 Strongly inspired by [@sapphiredev/prettier-config](https://github.com/sapphiredev/utilities/tree/main/packages/prettier-config).
+
+</div>
 
 ---
 

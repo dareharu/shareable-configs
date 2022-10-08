@@ -1,10 +1,16 @@
+<div align="center">
+
 # @dareharu/ts-config
 
 ### Shareable TypeScript configuration for [Dareharu] projects.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/dareharu/eslint-config/main/LICENSE)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@dareharu/ts-config?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@dareharu/ts-config)
+[![npm](https://img.shields.io/npm/v/@dareharu/ts-config?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@dareharu/ts-config)
 
 Strongly inspired by [@sapphiredev/ts-config](https://github.com/sapphiredev/utilities/tree/main/packages/ts-config).
+
+</div>
 
 ---
 

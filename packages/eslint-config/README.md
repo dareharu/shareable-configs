@@ -1,10 +1,16 @@
+<div align="center">
+
 # @dareharu/eslint-config
 
 ### Shareable ESLint configuration for [Dareharu] projects.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/dareharu/eslint-config/main/LICENSE)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@dareharu/eslint-config?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@dareharu/eslint-config)
+[![npm](https://img.shields.io/npm/v/@dareharu/eslint-config?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@dareharu/eslint-config)
 
 Strongly inspired by [@sapphiredev/eslint-config](https://github.com/sapphiredev/utilities/tree/main/packages/eslint-config).
+
+</div>
 
 ---
 
