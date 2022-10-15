@@ -15,9 +15,9 @@
     "@commitlint/config-angular": "^17.1.0",
     "@favware/cliff-jumper": "^1.8.8",
     "@types/node": "^18.7.17",
-    "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0",
-    "@vitest/coverage-c8": "^0.24.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "@vitest/coverage-c8": "^0.24.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
@@ -27,8 +27,8 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "tsup": "^6.2.3",
-    "turbo": "^1.5.5",
+    "turbo": "^1.5.6",
     "typescript": "^4.8.4",
-    "vitest": "^0.24.0"
+    "vitest": "^0.24.3"
   }
 }
