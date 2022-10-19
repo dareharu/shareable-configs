@@ -8,8 +8,9 @@
 
 **Packages**
 
-[![npm](https://img.shields.io/npm/v/@dareharu/eslint-config?color=crimson&logo=npm&style=flat-square&label=@dareharu/eslint-config)](https://www.npmjs.com/package/@dareharu/eslint-config)
-[![npm](https://img.shields.io/npm/v/@dareharu/prettier-config?color=crimson&logo=npm&style=flat-square&label=@dareharu/prettier-config)](https://www.npmjs.com/package/@dareharu/prettier-config)
-[![npm](https://img.shields.io/npm/v/@dareharu/ts-config?color=crimson&logo=npm&style=flat-square&label=@dareharu/ts-config)](https://www.npmjs.com/package/@dareharu/ts-config)
+[![npm for @dareharu/eslint-config](https://img.shields.io/npm/v/@dareharu/eslint-config?color=crimson&logo=npm&style=flat-square&label=@dareharu/eslint-config)](https://www.npmjs.com/package/@dareharu/eslint-config)
+[![npm for @dareharu/prettier-config](https://img.shields.io/npm/v/@dareharu/prettier-config?color=crimson&logo=npm&style=flat-square&label=@dareharu/prettier-config)](https://www.npmjs.com/package/@dareharu/prettier-config)
+[![npm for @dareharu/ts-config](https://img.shields.io/npm/v/@dareharu/ts-config?color=crimson&logo=npm&style=flat-square&label=@dareharu/ts-config)](https://www.npmjs.com/package/@dareharu/ts-config)
+[![npm for @dareharu/utilities](https://img.shields.io/npm/v/@dareharu/utilities?color=crimson&logo=npm&style=flat-square&label=@dareharu/utilities)](https://www.npmjs.com/package/@dareharu/utilities)
 
 </div>
