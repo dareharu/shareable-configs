@@ -1,0 +1,66 @@
+{
+  "name": "@dareharu/utilities",
+  "version": "0.1.0",
+  "description": "Common JavaScript utilities for Dareharu project",
+  "author": "@dareharu",
+  "license": "MIT",
+  "main": "dist/lib.js",
+  "module": "dist/lib.mjs",
+  "types": "dist/lib.d.ts",
+  "engines": {
+    "node": ">=16"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/lib.mjs",
+      "require": "./dist/lib.js",
+      "types": "./dist/lib.d.ts"
+    },
+    "./keyMirror": {
+      "import": "./dist/lib/keyMirror.mjs",
+      "require": "./dist/lib/keyMirror.js",
+      "types": "./dist/lib/keyMirror.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/dareharu/shareable-configs/tree/main/packages/utilities",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dareharu/shareable-configs",
+    "directory": "packages/utilities"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/dareharu/shareable-configs/issues"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "lint": "eslint \"src/**/*.ts\"",
+    "build": "tsup",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@favware/cliff-jumper": "^1.8.8",
+    "@vitest/coverage-c8": "^0.24.0",
+    "tsup": "^6.2.3",
+    "vitest": "^0.24.0"
+  },
+  "keywords": [
+    "dareharu",
+    "typescript",
+    "ts",
+    "utilities",
+    "useful",
+    "valuable",
+    "effective"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*.js*",
+    "dist/**/*.mjs*",
+    "dist/**/*.d*"
+  ]
+}
