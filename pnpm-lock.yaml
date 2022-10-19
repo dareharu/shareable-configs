@@ -77,6 +77,18 @@ importers:
     devDependencies:
       '@favware/cliff-jumper': 1.8.8
 
+  packages/utilities:
+    specifiers:
+      '@favware/cliff-jumper': ^1.8.8
+      '@vitest/coverage-c8': ^0.24.0
+      tsup: ^6.2.3
+      vitest: ^0.24.0
+    devDependencies:
+      '@favware/cliff-jumper': 1.8.8
+      '@vitest/coverage-c8': 0.24.0
+      tsup: 6.2.3
+      vitest: 0.24.0
+
 packages:
 
   /@babel/code-frame/7.18.6:
