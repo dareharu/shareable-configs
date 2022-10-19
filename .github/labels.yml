@@ -38,6 +38,8 @@
   color: 'fbca04'
 - name: packages:ts-config
   color: 'fbca04'
+- name: packages:utilities
+  color: 'fbca04'
 - name: performance
   color: '80c042'
 - name: priority:critical

@@ -9,3 +9,7 @@
 'packages:ts-config':
   - packages/ts-config/*
   - packages/ts-config/**/*
+
+'packages:utilities':
+  - packages/utilities/*
+  - packages/utilities/**/*
