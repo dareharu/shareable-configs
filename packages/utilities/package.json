@@ -16,6 +16,11 @@
       "require": "./dist/lib.js",
       "types": "./dist/lib.d.ts"
     },
+    "./createBitField": {
+      "import": "./dist/lib/createBitField.mjs",
+      "require": "./dist/lib/createBitField.js",
+      "types": "./dist/lib/createBitField.d.ts"
+    },
     "./keyMirror": {
       "import": "./dist/lib/keyMirror.mjs",
       "require": "./dist/lib/keyMirror.js",
