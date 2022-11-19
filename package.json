@@ -13,22 +13,22 @@
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-angular": "^17.2.0",
-    "@favware/cliff-jumper": "^1.8.8",
+    "@favware/cliff-jumper": "^1.9.0",
     "@types/node": "^18.11.9",
-    "@typescript-eslint/eslint-plugin": "^5.42.1",
-    "@typescript-eslint/parser": "^5.42.1",
-    "@vitest/coverage-c8": "^0.25.1",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "@vitest/coverage-c8": "^0.25.2",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.27.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.2",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "tsup": "^6.4.0",
+    "tsup": "^6.5.0",
     "turbo": "^1.6.3",
-    "typescript": "^4.8.4",
-    "vitest": "^0.25.1"
+    "typescript": "^4.9.3",
+    "vitest": "^0.25.2"
   }
 }
