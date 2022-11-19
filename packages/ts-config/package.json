@@ -34,7 +34,7 @@
     "check-update": "cliff-jumper --dry-run"
   },
   "devDependencies": {
-    "@favware/cliff-jumper": "^1.8.8"
+    "@favware/cliff-jumper": "^1.9.0"
   },
   "keywords": [
     "dareharu",
