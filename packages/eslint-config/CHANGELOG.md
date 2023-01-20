@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@dareharu/eslint-config@1.2.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.1.0...@dareharu/eslint-config@1.2.0) - (2023-01-20)
+
+## 🏠 Refactor
+
+- **eslint-config:** Warning instead of error on `no-magic-numbers` ([7c27019](https://github.com/dareharu/shareable-configs/commit/7c27019880fa50ae5f461ff5bc45b9dbcd544f78))
+
+## 🚀 Features
+
+- **eslint-config:** Separate common rules ([272eb0a](https://github.com/dareharu/shareable-configs/commit/272eb0af334d71f267683c6d7944f61a9ce68fa3))
+
 # [@dareharu/eslint-config@1.1.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.0.3...@dareharu/eslint-config@1.1.0) - (2022-10-08)
 
 ## 🐛 Bug Fixes
