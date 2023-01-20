@@ -329,7 +329,7 @@ export const eslintConfig = {
     '@typescript-eslint/no-invalid-this': 'error',
     '@typescript-eslint/no-invalid-void-type': 'error',
     '@typescript-eslint/no-magic-numbers': [
-      'error',
+      'warn',
       {
         enforceConst: true,
         ignoreDefaultValues: true,
