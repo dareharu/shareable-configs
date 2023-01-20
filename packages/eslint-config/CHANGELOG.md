@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@dareharu/eslint-config@1.2.1](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.2.0...@dareharu/eslint-config@1.2.1) - (2023-01-20)
+
+## 🐛 Bug Fixes
+
+- **build:** Common rules do not be uploaded onto npm ([1d252cd](https://github.com/dareharu/shareable-configs/commit/1d252cd2e69872ebf46e4e3b524078113136515b))
+
 # [@dareharu/eslint-config@1.2.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/eslint-config@1.1.0...@dareharu/eslint-config@1.2.0) - (2023-01-20)
 
 ## 🏠 Refactor
