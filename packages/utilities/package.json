@@ -47,9 +47,9 @@
   "dependencies": {},
   "devDependencies": {
     "@favware/cliff-jumper": "^1.10.0",
-    "@vitest/coverage-c8": "^0.29.3",
-    "tsup": "^6.6.3",
-    "vitest": "^0.29.3"
+    "@vitest/coverage-c8": "^0.29.7",
+    "tsup": "^6.7.0",
+    "vitest": "^0.29.7"
   },
   "keywords": [
     "dareharu",
