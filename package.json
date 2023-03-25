@@ -14,7 +14,7 @@
     "@commitlint/cli": "^17.5.0",
     "@commitlint/config-angular": "^17.4.4",
     "@favware/cliff-jumper": "^1.10.0",
-    "@types/node": "^18.15.9",
+    "@types/node": "^18.15.10",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "@vitest/coverage-c8": "^0.29.7",
