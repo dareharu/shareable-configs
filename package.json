@@ -11,13 +11,13 @@
     "check-update": "turbo run check-update"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.1",
-    "@commitlint/config-angular": "^17.4.4",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-angular": "^17.6.1",
     "@favware/cliff-jumper": "^1.10.0",
     "@types/node": "^18.15.11",
-    "@typescript-eslint/eslint-plugin": "^5.57.1",
-    "@typescript-eslint/parser": "^5.57.1",
-    "@vitest/coverage-c8": "^0.29.8",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitest/coverage-c8": "^0.30.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
@@ -27,8 +27,8 @@
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
     "tsup": "^6.7.0",
-    "turbo": "^1.8.8",
+    "turbo": "^1.9.1",
     "typescript": "^4.9.5",
-    "vitest": "^0.29.8"
+    "vitest": "^0.30.1"
   }
 }
