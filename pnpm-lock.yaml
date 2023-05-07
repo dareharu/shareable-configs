@@ -582,7 +582,7 @@ packages:
     hasBin: true
     dependencies:
       '@favware/conventional-changelog-angular': 5.0.15
-      '@sapphire/result': 2.6.2
+      '@sapphire/result': 2.6.3
       '@sapphire/utilities': 3.11.0
       colorette: 2.0.20
       commander: 9.5.0
@@ -685,8 +685,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  /@sapphire/result@2.6.2:
-    resolution: {integrity: sha512-O3iUogjYTI+BBNNYlr4Eyl29hRh0ywL7Tvm8sHOHsrnAAIhkxO2W96MyuSNbQOy8225k3S3ZcDWuyoCKMoD7yw==}
+  /@sapphire/result@2.6.3:
+    resolution: {integrity: sha512-CQpcCgU+GlCvJeu+YLr8pGgB68r1ITj5s99LI1oIe4wu+n+ZFk9VPa8fIJI3Wl9ar5Xkkp8NoNOuH7o8Y4F9Xg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       tslib: 2.5.0
@@ -881,7 +881,7 @@ packages:
       c8: 7.13.0
       magic-string: 0.30.0
       picocolors: 1.0.0
-      std-env: 3.3.2
+      std-env: 3.3.3
       vitest: 0.31.0
     dev: true
 
@@ -1293,8 +1293,8 @@ packages:
       restore-cursor: 3.1.0
     dev: true
 
-  /cli-spinners@2.8.0:
-    resolution: {integrity: sha512-/eG5sJcvEIwxcdYM86k5tPwn0MUzkX5YY3eImTGpJOZgVe4SdTMY14vQpcxgBzJ0wXwAYrS8E+c3uHeK4JNyzQ==}
+  /cli-spinners@2.9.0:
+    resolution: {integrity: sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==}
     engines: {node: '>=6'}
     dev: true
 
@@ -2842,7 +2842,7 @@ packages:
       normalize-path: 3.0.0
       object-inspect: 1.12.3
       pidtree: 0.6.0
-      string-argv: 0.3.1
+      string-argv: 0.3.2
       yaml: 2.2.2
     transitivePeerDependencies:
       - enquirer
@@ -3093,8 +3093,8 @@ packages:
     dependencies:
       acorn: 8.8.2
       pathe: 1.1.0
-      pkg-types: 1.0.2
-      ufo: 1.1.1
+      pkg-types: 1.0.3
+      ufo: 1.1.2
     dev: true
 
   /modify-values@1.0.1:
@@ -3244,7 +3244,7 @@ packages:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.8.0
+      cli-spinners: 2.9.0
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
@@ -3374,8 +3374,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /pkg-types@1.0.2:
-    resolution: {integrity: sha512-hM58GKXOcj8WTqUXnsQyJYXdeAPbythQgEF3nTcEo+nkD49chjQ9IKm/QJy9xf6JakXptz86h7ecP2024rrLaQ==}
+  /pkg-types@1.0.3:
+    resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 1.2.0
@@ -3572,8 +3572,8 @@ packages:
     dependencies:
       glob: 7.2.3
 
-  /rollup@3.21.2:
-    resolution: {integrity: sha512-c4vC+JZ3bbF4Kqq2TtM7zSKtSyMybFOjqmomFax3xpfYaPZDZ4iz8NMIuBRMjnXOcKYozw7bC6vhJjiWD6JpzQ==}
+  /rollup@3.21.5:
+    resolution: {integrity: sha512-a4NTKS4u9PusbUJcfF4IMxuqjFzjm6ifj76P54a7cKnvVzJaG12BLVR+hgU2YDGHzyMMQNxLAZWuALsn8q2oQg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3730,12 +3730,12 @@ packages:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
     dev: true
 
-  /std-env@3.3.2:
-    resolution: {integrity: sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA==}
+  /std-env@3.3.3:
+    resolution: {integrity: sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==}
     dev: true
 
-  /string-argv@0.3.1:
-    resolution: {integrity: sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==}
+  /string-argv@0.3.2:
+    resolution: {integrity: sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==}
     engines: {node: '>=0.6.19'}
     dev: true
 
@@ -4039,7 +4039,7 @@ packages:
       joycon: 3.1.1
       postcss-load-config: 3.1.4(ts-node@10.9.1)
       resolve-from: 5.0.0
-      rollup: 3.21.2
+      rollup: 3.21.5
       source-map: 0.8.0-beta.0
       sucrase: 3.32.0
       tree-kill: 1.2.2
@@ -4172,8 +4172,8 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  /ufo@1.1.1:
-    resolution: {integrity: sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==}
+  /ufo@1.1.2:
+    resolution: {integrity: sha512-TrY6DsjTQQgyS3E3dBaOXf0TpPD8u9FVrVYmKVegJuFw51n/YB9XPt+U6ydzFG5ZIN7+DIjPbNmXoBj9esYhgQ==}
     dev: true
 
   /unbox-primitive@1.0.2:
@@ -4230,7 +4230,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.3(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4241,8 +4241,8 @@ packages:
       - terser
     dev: true
 
-  /vite@4.3.3(@types/node@18.16.5):
-    resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
+  /vite@4.3.5(@types/node@18.16.5):
+    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4269,7 +4269,7 @@ packages:
       '@types/node': 18.16.5
       esbuild: 0.17.18
       postcss: 8.4.23
-      rollup: 3.21.2
+      rollup: 3.21.5
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -4323,11 +4323,11 @@ packages:
       magic-string: 0.30.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      std-env: 3.3.2
+      std-env: 3.3.3
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.5.0
-      vite: 4.3.3(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.5)
       vite-node: 0.31.0(@types/node@18.16.5)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
