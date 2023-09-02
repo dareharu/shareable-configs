@@ -13,7 +13,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-angular": "^17.7.0",
-    "@favware/cliff-jumper": "^1.10.0",
+    "@favware/cliff-jumper": "^2.1.2",
     "@types/node": "^18.17.11",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
