@@ -11,12 +11,12 @@
     "check-update": "turbo run check-update"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
+    "@commitlint/cli": "^17.7.2",
     "@commitlint/config-angular": "^17.7.0",
     "@favware/cliff-jumper": "^2.2.0",
-    "@types/node": "^18.17.19",
-    "@typescript-eslint/eslint-plugin": "^6.7.2",
-    "@typescript-eslint/parser": "^6.7.2",
+    "@types/node": "^18.18.1",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
     "@vitest/coverage-c8": "^0.33.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.50.0",
@@ -29,6 +29,6 @@
     "tsup": "^7.2.0",
     "turbo": "^1.10.14",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.5"
+    "vitest": "^0.34.6"
   }
 }
