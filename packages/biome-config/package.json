@@ -1,6 +1,6 @@
 {
   "name": "@dareharu/biome-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable Biome configuration for Dareharu project",
   "author": "@dareharu",
   "license": "MIT",
@@ -45,7 +45,7 @@
   },
   "files": [
     "biome.jsonc",
-    "formatter.json",
-    "linter.json"
+    "formatter.jsonc",
+    "lint.jsonc"
   ]
 }
