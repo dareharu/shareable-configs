@@ -1,6 +1,6 @@
 {
   "name": "@dareharu/biome-config",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Shareable Biome configuration for Dareharu project",
   "author": "@dareharu",
   "license": "MIT",
