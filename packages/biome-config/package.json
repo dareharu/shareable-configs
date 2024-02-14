@@ -1,0 +1,51 @@
+{
+  "name": "@dareharu/biome-config",
+  "version": "1.0.0",
+  "description": "Shareable Biome configuration for Dareharu project",
+  "author": "@dareharu",
+  "license": "MIT",
+  "main": "biome.json",
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "exports": {
+    ".": "./biome.jsonc",
+    "./formatter": "./formatter.jsonc",
+    "./lint": "./lint.jsonc"
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/dareharu/shareable-configs/tree/main/packages/biome-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dareharu/shareable-configs",
+    "directory": "packages/biome-config"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/dareharu/shareable-configs/issues"
+  },
+  "scripts": {
+    "build": "echo 'No build step'",
+    "bump": "cliff-jumper",
+    "check-update": "cliff-jumper --dry-run"
+  },
+  "devDependencies": {
+    "@favware/cliff-jumper": "^2.1.2"
+  },
+  "keywords": [
+    "dareharu",
+    "biome",
+    "biomejs",
+    "biome config",
+    "format",
+    "lint"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "biome.jsonc",
+    "formatter.json",
+    "linter.json"
+  ]
+}
