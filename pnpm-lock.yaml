@@ -54,8 +54,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1
       tsup:
-        specifier: ^7.3.0
-        version: 7.3.0(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       turbo:
         specifier: ^1.11.2
         version: 1.11.2
@@ -98,8 +98,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0(vitest@0.34.6)
       tsup:
-        specifier: ^7.3.0
-        version: 7.3.0(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -107,14 +107,14 @@ importers:
   packages/prettier-config:
     devDependencies:
       '@favware/cliff-jumper':
-        specifier: ^2.1.2
+        specifier: ^2.2.3
         version: 2.2.3
       '@vitest/coverage-c8':
         specifier: ^0.33.0
         version: 0.33.0(vitest@0.34.6)
       tsup:
-        specifier: ^7.2.0
-        version: 7.3.0(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -122,7 +122,7 @@ importers:
   packages/ts-config:
     devDependencies:
       '@favware/cliff-jumper':
-        specifier: ^2.1.2
+        specifier: ^2.2.3
         version: 2.2.3
 
   packages/utilities:
@@ -134,8 +134,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0(vitest@0.34.6)
       tsup:
-        specifier: ^7.3.0
-        version: 7.3.0(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -960,7 +960,7 @@ packages:
       '@typescript-eslint/types': 6.14.0
       '@typescript-eslint/typescript-estree': 6.14.0(typescript@5.3.3)
       eslint: 8.56.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -2483,7 +2483,7 @@ packages:
     hasBin: true
     dependencies:
       meow: 12.1.1
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /glob-parent@5.1.2:
@@ -3426,7 +3426,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.13.1
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -3984,7 +3984,6 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-    dev: true
 
   /set-function-length@1.1.1:
     resolution: {integrity: sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==}
@@ -4382,16 +4381,18 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsup@7.3.0(typescript@5.3.3):
-    resolution: {integrity: sha512-Ja1eaSRrE+QarmATlNO5fse2aOACYMBX+IZRKy1T+gpyH+jXgRrl5l4nHIQJQ1DoDgEjHDTw8cpE085UdBZuWQ==}
+  /tsup@8.0.2(typescript@5.3.3):
+    resolution: {integrity: sha512-NY8xtQXdH7hDUAZwcQdY/Vzlw9johQsaqf7iwZ6g1DOUlFYQ5/AtVAjTvihhEyeRlGo4dLRVHtrRaL35M1daqQ==}
     engines: {node: '>=18'}
-    deprecated: Breaking node 16
     hasBin: true
     peerDependencies:
+      '@microsoft/api-extractor': ^7.36.0
       '@swc/core': ^1
       postcss: ^8.4.12
       typescript: '>=4.5.0'
     peerDependenciesMeta:
+      '@microsoft/api-extractor':
+        optional: true
       '@swc/core':
         optional: true
       postcss:
