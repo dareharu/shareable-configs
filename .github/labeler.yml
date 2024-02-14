@@ -1,3 +1,7 @@
+'packages:biome-config':
+  - packages/biome-config/*
+  - packages/biome-config/**/*
+
 'packages:eslint-config':
   - packages/eslint-config/*
   - packages/eslint-config/**/*
