@@ -1,15 +1,19 @@
+'packages:biome-config':
+- changed-files:
+  - any-glob-to-any-files: packages/biome-config/**
+
 'packages:eslint-config':
-  - packages/eslint-config/*
-  - packages/eslint-config/**/*
+- changed-files:
+  - any-glob-to-any-files: packages/eslint-config/**
 
 'packages:prettier-config':
-  - packages/prettier-config/*
-  - packages/prettier-config/**/*
+- changed-files:
+  - any-glob-to-any-files: packages/prettier-config/**
 
 'packages:ts-config':
-  - packages/ts-config/*
-  - packages/ts-config/**/*
+- changed-files:
+  - any-glob-to-any-files: packages/ts-config/**
 
 'packages:utilities':
-  - packages/utilities/*
-  - packages/utilities/**/*
+- changed-files:
+  - any-glob-to-any-files: packages/utilities/**

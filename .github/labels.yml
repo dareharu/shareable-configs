@@ -32,6 +32,8 @@
   color: 'c66037'
 - name: needs rebase & merge
   color: '24853c'
+- name: packages:biome-config
+  color: 'fbca04'
 - name: packages:eslint-config
   color: 'fbca04'
 - name: packages:prettier-config

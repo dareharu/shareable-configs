@@ -1,11 +1,12 @@
 # Sayakie is the main maintainer of this repository
-packages/eslint-config/src        @Sayakie
-packages/eslint-config/tests      @Sayakie
-packages/prettier-config/src      @Sayakie
-packages/prettier-config/tests    @Sayakie
-packages/ts-config/src            @Sayakie
-packages/ts-config/tests          @Sayakie
-packages/utilities/src            @Sayakie
-packages/utilities/tests          @Sayakie
-scripts/tsup.config.ts            @Sayakie
-scripts/vitest.config.ts          @Sayakie
+packages/biome-config/biome.jsonc               @Sayakie
+packages/eslint-config/src                      @Sayakie
+packages/eslint-config/tests                    @Sayakie
+packages/prettier-config/src                    @Sayakie
+packages/prettier-config/tests                  @Sayakie
+packages/ts-config/tsconfig.json                @Sayakie
+packages/ts-config/without-decorators.json      @Sayakie
+packages/utilities/src                          @Sayakie
+packages/utilities/tests                        @Sayakie
+scripts/tsup.config.ts                          @Sayakie
+scripts/vitest.config.ts                        @Sayakie
