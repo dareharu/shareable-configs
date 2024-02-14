@@ -1,0 +1,46 @@
+name: Publish Release
+on:
+  release:
+    types: [released]
+
+jobs:
+  npm-publish:
+    name: npm publish
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'dareharu'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          registry-url: https://registry.npmjs.org/
+      - name: Set pnpm version
+        uses: pnpm/action-setup@v3
+        with:
+          run_install: false
+          version: 8
+      - name: Get pnpm store dir
+        id: pnpm-store-path
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      - name: Setup pnpm cache
+        id: pnpm-store
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+      - name: Install dependencies
+        if: steps.pnpm-store.outputs.cache-hit != 'true'
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Build dependencies
+        run: pnpm build
+
+      - name: Publish to NPM
+        run: pnpm publish --access public --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
