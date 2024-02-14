@@ -4,15 +4,13 @@
   "description": "Shareable Biome configuration for Dareharu project",
   "author": "@dareharu",
   "license": "MIT",
-  "main": "biome.json",
+  "main": "biome.jsonc",
   "engines": {
     "node": ">=16",
     "npm": ">=8"
   },
   "exports": {
-    ".": "./biome.jsonc",
-    "./formatter": "./formatter.jsonc",
-    "./lint": "./lint.jsonc"
+    ".": "./biome.jsonc"
   },
   "sideEffects": false,
   "homepage": "https://github.com/dareharu/shareable-configs/tree/main/packages/biome-config",
@@ -44,8 +42,6 @@
     "access": "public"
   },
   "files": [
-    "biome.jsonc",
-    "formatter.jsonc",
-    "lint.jsonc"
+    "biome.jsonc"
   ]
 }
