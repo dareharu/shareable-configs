@@ -58,7 +58,7 @@ importers:
         version: 3.2.5
       tsup:
         specifier: ^8.0.2
-        version: 8.0.2(postcss@8.4.32)(typescript@5.4.5)
+        version: 8.0.2(typescript@5.3.3)
       turbo:
         specifier: ^1.13.3
         version: 1.13.3
@@ -101,8 +101,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0(vitest@0.34.6)
       tsup:
-        specifier: ^7.3.0
-        version: 7.3.0(postcss@8.4.32)(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -116,8 +116,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0(vitest@0.34.6)
       tsup:
-        specifier: ^7.2.0
-        version: 7.3.0(postcss@8.4.32)(typescript@5.4.5)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -137,8 +137,8 @@ importers:
         specifier: ^0.33.0
         version: 0.33.0(vitest@0.34.6)
       tsup:
-        specifier: ^7.3.0
-        version: 7.3.0(postcss@8.4.32)(typescript@5.4.5)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -3606,7 +3606,7 @@ snapshots:
       '@typescript-eslint/types': 6.14.0
       '@typescript-eslint/typescript-estree': 6.14.0(typescript@5.3.3)
       eslint: 8.56.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4687,7 +4687,8 @@ snapshots:
   git-semver-tags@7.0.1:
     dependencies:
       meow: 12.1.1
-      semver: 7.5.4
+      semver: 7.6.0
+    dev: true
 
   glob-parent@5.1.2:
     dependencies:
@@ -5263,7 +5264,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.13.1
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-license: 3.0.4
 
   normalize-path@3.0.0: {}
@@ -5842,9 +5843,28 @@ snapshots:
       strip-bom: 3.0.0
     optional: true
 
-  tslib@2.6.2: {}
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: true
 
-  tsup@7.3.0(postcss@8.4.32)(typescript@5.3.3):
+  /tsup@8.0.2(typescript@5.3.3):
+    resolution: {integrity: sha512-NY8xtQXdH7hDUAZwcQdY/Vzlw9johQsaqf7iwZ6g1DOUlFYQ5/AtVAjTvihhEyeRlGo4dLRVHtrRaL35M1daqQ==}
+    engines: {node: '>=18'}
+    hasBin: true
+    peerDependencies:
+      '@microsoft/api-extractor': ^7.36.0
+      '@swc/core': ^1
+      postcss: ^8.4.12
+      typescript: '>=4.5.0'
+    peerDependenciesMeta:
+      '@microsoft/api-extractor':
+        optional: true
+      '@swc/core':
+        optional: true
+      postcss:
+        optional: true
+      typescript:
+        optional: true
     dependencies:
       bundle-require: 4.0.2(esbuild@0.19.9)
       cac: 6.7.14
