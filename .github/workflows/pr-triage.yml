@@ -20,4 +20,4 @@ jobs:
 
       - name: Automatically assign reviewers
         if: github.event.action == 'opened'
-        uses: kentaro-m/auto-assign-action@ed73f90568ce37d22dbbd1a73983738fae329f53 # v1.2.6
+        uses: kentaro-m/auto-assign-action@f4648c0a9fdb753479e9e75fc251f507ce17bb7e # v2.0.0
