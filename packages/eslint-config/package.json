@@ -51,10 +51,10 @@
     "vitest": "^1.4.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   },
   "optionalDependencies": {
     "eslint-plugin-import": "^2.29.1"
