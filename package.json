@@ -3,14 +3,18 @@
   "private": true,
   "scripts": {
     "prepare": "is-ci || husky install .github/husky",
-    "lint": "eslint packages --ext mjs,js,ts --fix",
-    "format": "prettier --write \"packages/**/{src,tests,scripts}/**/*.{mjs,js,ts}\"",
+    "dry-format": "biome check --no-errors-on-unmatched --files-ignore-unknown=true",
+    "format": "biome check --no-errors-on-unmatched --files-ignore-unknown=true --apply",
     "test": "vitest run",
     "build": "turbo run build",
     "bump": "turbo run bump",
     "check-update": "turbo run check-update"
   },
+  "lint-staged": {
+    "*": ["pnpm format -- --staged"]
+  },
   "devDependencies": {
+    "@biomejs/biome": "1.7.3",
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-angular": "^18.6.1",
     "@favware/cliff-jumper": "^2.2.3",

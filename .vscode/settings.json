@@ -1,4 +1,16 @@
 {
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.linkedEditing": true,
   "files.eol": "\n",
   "files.exclude": {
     "**/.git": true,
@@ -19,5 +31,5 @@
     "**/dist": true,
     "**/pnpm-lock.yaml": true,
     "**/CHANGELOG.md": true
-  },
+  }
 }

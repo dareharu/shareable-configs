@@ -1,6 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
-  "extends": ["./formatter.jsonc", "./lint.jsonc"],
+  "$schema": "https://biomejs.dev/schemas/1.7.2/schema.json",
   "organizeImports": {
     "enabled": true
   },
@@ -11,7 +10,44 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "error"
+      },
+      "correctness": {
+        "noUndeclaredVariables": "error",
+        "noUnusedImports": "error",
+        "useHookAtTopLevel": "error"
+      },
+      "performance": {
+        "noBarrelFile": "error"
+      },
+      "style": {
+        "noDefaultExport": "warn",
+        "noNegationElse": "warn",
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useConsistentArrayType": "warn",
+        "useNodeAssertStrict": "error",
+        "useShorthandArrayType": "error",
+        "useShorthandAssign": "error",
+        "useSingleCaseStatement": "error"
+      },
+      "suspicious": {
+        "noEmptyBlockStatements": "error",
+        "noSkippedTests": "error",
+        "useAwait": "error"
+      },
+      "nursery": {
+        "noConstantMathMinMaxClamp": "error",
+        "noDuplicateElseIf": "error",
+        "noDuplicateJsonKeys": "error",
+        "noEvolvingAny": "error",
+        "noFlatMapIdentity": "error",
+        "noUndeclaredDependencies": "error",
+        "useArrayLiterals": "error",
+        "useConsistentBuiltinInstantiation": "error"
+      }
     }
   },
   "vcs": {
@@ -19,5 +55,16 @@
     "clientKind": "git",
     "useIgnoreFile": true,
     "defaultBranch": "main"
-  }
+  },
+  "overrides": [
+    {
+      "include": [".vscode/**"],
+      "json": {
+        "parser": {
+          "allowComments": true,
+          "allowTrailingCommas": true
+        }
+      }
+    }
+  ]
 }

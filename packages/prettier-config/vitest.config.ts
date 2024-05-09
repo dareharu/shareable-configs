@@ -1,3 +1,4 @@
-import { createVitestConfig } from '../../scripts/vitest.config'
+import { createVitestConfig } from "../../scripts/vitest.config.cjs";
 
-export default createVitestConfig
+// biome-ignore lint/style/noDefaultExport: This is a config file
+export default createVitestConfig;
