@@ -44,26 +44,6 @@ You can use `@dareharu/biome-config` base [`biome.jsonc`](biome.jsonc) by extend
 
 This Biome config is set up in such a way that it will work for nearly all projects, you may leverage this feature to avoid repeating the same configuration in multiple projects and keep them in sync.
 
-### Formatting only
-
-You can use `@dareharu/biome-config`'s [`formatter.jsonc`](formatter.jsonc) by extending it in yours:
-
-```json
-{
-  "extends": "@dareharu/biome-config/formatter"
-}
-```
-
-### Linting only
-
-You can use `@dareharu/biome-config`'s [`lint.jsonc`](lint.jsonc) by extending it in yours:
-
-```json
-{
-  "extends": "@dareharu/biome-config/lint"
-}
-```
-
 # 🔗 Meta
 
 ## Contributing
