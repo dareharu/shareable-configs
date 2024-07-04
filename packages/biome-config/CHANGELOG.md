@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@dareharu/biome-config@5.0.1](https://github.com/dareharu/shareable-configs/compare/@dareharu/biome-config@5.0.0...@dareharu/biome-config@5.0.1) - (2024-07-04)
+
+## 🐛 Bug Fixes
+
+- Browser-side globals restricted ([0bfb089](https://github.com/dareharu/shareable-configs/commit/0bfb0890f162856f329c47434e0ac072061c961e))
+
 # [@dareharu/biome-config@5.0.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/biome-config@3.0.0...@dareharu/biome-config@5.0.0) - (2024-07-04)
 
 ## 📝 Documentation
