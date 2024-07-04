@@ -1,20 +1,34 @@
 {
-  "pipeline": {
+  "tasks": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**", "build/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        "build/**"
+      ]
     },
     "lint": {
-      "dependsOn": ["@dareharu/prettier-config#build", "@dareharu/eslint-config#build"],
+      "dependsOn": [
+        "@dareharu/prettier-config#build",
+        "@dareharu/eslint-config#build"
+      ],
       "outputs": []
     },
     "test": {
-      "dependsOn": ["^build"],
-      "outputs": ["coverage/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "coverage/**"
+      ]
     },
     "bump": {
       "dependsOn": [],
-      "outputs": ["CHANGELOG.md"]
+      "outputs": [
+        "CHANGELOG.md"
+      ]
     },
     "check-update": {
       "dependsOn": [],
