@@ -99,10 +99,7 @@
               "confirm",
               "prompt",
               "React",
-              "ReactDOM",
-              "fetch",
-              "document",
-              "window"
+              "ReactDOM"
             ]
           }
         },
