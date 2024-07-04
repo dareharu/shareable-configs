@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [@dareharu/biome-config@4.0.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/biome-config@3.0.0...@dareharu/biome-config@4.0.0) - (2024-07-04)
+
+## 📝 Documentation
+
+- Purge outdated contents ([e140f87](https://github.com/dareharu/shareable-configs/commit/e140f87ab541aaac01d0f70e2b4c9a89b8617683))
+
 # [@dareharu/biome-config@3.0.0](https://github.com/dareharu/shareable-configs/compare/@dareharu/biome-config@2.0.0...@dareharu/biome-config@3.0.0) - (2024-05-09)
 
 ## 🏠 Refactor
