@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.7.2/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
   "organizeImports": {
     "enabled": true
   },
@@ -12,22 +12,106 @@
     "rules": {
       "recommended": true,
       "complexity": {
-        "noExcessiveCognitiveComplexity": "error"
+        "noExcessiveCognitiveComplexity": {
+          "level": "error",
+          "options": {
+            "maxAllowedComplexity": 11
+          }
+        },
+        "useSimplifiedLogicExpression": "error"
       },
       "correctness": {
+        "noConstantMathMinMaxClamp": "error",
         "noUndeclaredVariables": "error",
-        "noUnusedImports": "error",
+        "noUnusedImports": "warn",
+        "noUnusedPrivateClassMembers": "error",
+        "noUnusedVariables": "warn",
+        "useArrayLiterals": "error",
         "useHookAtTopLevel": "error"
       },
+      "nursery": {
+        "noDuplicateAtImportRules": "error",
+        "noDuplicateElseIf": "error",
+        "noDuplicateFontNames": "error",
+        "noDuplicateJsonKeys": "error",
+        "noDuplicateSelectorsKeyframeBlock": "error",
+        "noEmptyBlock": "info",
+        "noEvolvingTypes": "error",
+        "noImportantInKeyframe": "error",
+        "noInvalidPositionAtImportRule": "error",
+        "noLabelWithoutControl": "warn",
+        "noMisplacedAssertion": "error",
+        "noUndeclaredDependencies": "error",
+        "noUnknownFunction": "warn",
+        "noUnknownMediaFeatureName": "warn",
+        "noUnknownProperty": "warn",
+        "noUnknownPseudoClassSelector": "warn",
+        "noUnknownUnit": "warn",
+        "noUnmatchableAnbSelector": "error",
+        "noUnusedFunctionParameters": "info",
+        "noUselessUndefinedInitialization": "error",
+        "noYodaExpression": "error",
+        "useAdjacentOverloadSignatures": "error",
+        "useConsistentBuiltinInstantiation": "error",
+        "useDateNow": "error",
+        "useDefaultSwitchClause": "warn",
+        "useErrorMessage": "error",
+        "useExplicitLengthCheck": "error",
+        "useFocusableInteractive": "error",
+        "useImportExtensions": "info",
+        "useNumberToFixedDigitsArgument": "error",
+        "useSemanticElements": "error",
+        /**
+         * The rule is working in progress, and is only partially implemented. Progress
+         * is tracked in the issue linked below.
+         *
+         * @see [issue](https://github.com/biomejs/biome/issues/1274)
+         * @see [rule docs](https://biomejs.dev/linter/rules/use-sorted-classes/)
+         */
+        "useSortedClasses": {
+          "level": "info",
+          "options": {
+            "functions": [
+              "cn",
+              "clsx",
+              "cva",
+              "tw"
+            ]
+          }
+        },
+        "useThrowNewError": "error",
+        "useThrowOnlyError": "error",
+        "useTopLevelRegex": "warn"
+      },
       "performance": {
-        "noBarrelFile": "error"
+        "noAccumulatingSpread": "warn",
+        "noBarrelFile": "error",
+        "noReExportAll": "warn"
       },
       "style": {
-        "noDefaultExport": "warn",
+        "noDefaultExport": "info",
         "noNegationElse": "warn",
+        "noRestrictedGlobals": {
+          "level": "error",
+          "options": {
+            "deniedGlobals": [
+              "alert",
+              "confirm",
+              "prompt",
+              "React",
+              "ReactDOM",
+              "fetch",
+              "document",
+              "window"
+            ]
+          }
+        },
+        "noShoutyConstants": "warn",
         "useBlockStatements": "error",
         "useCollapsedElseIf": "error",
         "useConsistentArrayType": "warn",
+        "useForOf": "error",
+        "useFragmentSyntax": "error",
         "useNodeAssertStrict": "error",
         "useShorthandArrayType": "error",
         "useShorthandAssign": "error",
@@ -37,16 +121,6 @@
         "noEmptyBlockStatements": "error",
         "noSkippedTests": "error",
         "useAwait": "error"
-      },
-      "nursery": {
-        "noConstantMathMinMaxClamp": "error",
-        "noDuplicateElseIf": "error",
-        "noDuplicateJsonKeys": "error",
-        "noEvolvingAny": "error",
-        "noFlatMapIdentity": "error",
-        "noUndeclaredDependencies": "error",
-        "useArrayLiterals": "error",
-        "useConsistentBuiltinInstantiation": "error"
       }
     }
   },
