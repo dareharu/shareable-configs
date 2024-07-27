@@ -45,16 +45,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@favware/cliff-jumper": "^4.0.2",
+    "@favware/cliff-jumper": "^4.0.3",
     "@vitest/coverage-c8": "^0.33.0",
-    "tsup": "^8.2.1",
+    "tsup": "^8.2.3",
     "vitest": "^1.6.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.16.1",
-    "@typescript-eslint/parser": "^7.16.1",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
     "eslint": "^8.57.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "optionalDependencies": {
     "eslint-plugin-import": "^2.29.1"
