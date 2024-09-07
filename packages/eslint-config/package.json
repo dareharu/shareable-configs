@@ -57,7 +57,7 @@
     "typescript": "^5.5.4"
   },
   "optionalDependencies": {
-    "eslint-plugin-import": "^2.29.1"
+    "eslint-plugin-import": "^2.30.0"
   },
   "keywords": [
     "dareharu",
