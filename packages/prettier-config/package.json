@@ -31,7 +31,7 @@
     "check-update": "cliff-jumper --dry-run"
   },
   "devDependencies": {
-    "@favware/cliff-jumper": "^4.0.2",
+    "@favware/cliff-jumper": "^5.0.0",
     "@vitest/coverage-c8": "^0.33.0",
     "tsup": "^8.0.2",
     "vitest": "^1.3.0"
