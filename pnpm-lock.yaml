@@ -13,7 +13,7 @@ importers:
         version: 1.9.4
       '@commitlint/cli':
         specifier: ^18.6.1
-        version: 18.6.1(@types/node@20.17.12)(typescript@5.7.3)
+        version: 18.6.1(@types/node@22.10.6)(typescript@5.7.3)
       '@commitlint/config-angular':
         specifier: ^18.6.1
         version: 18.6.1
@@ -21,8 +21,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       '@types/node':
-        specifier: ^20.17.12
-        version: 20.17.12
+        specifier: ^22.10.6
+        version: 22.10.6
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.3))(eslint@8.57.1)(typescript@5.7.3)
@@ -31,10 +31,10 @@ importers:
         version: 7.18.0(eslint@8.57.1)(typescript@5.7.3)
       '@vitest/coverage-v8':
         specifier: ^1.6.0
-        version: 1.6.0(vitest@1.6.0(@types/node@20.17.12))
+        version: 1.6.0(vitest@1.6.0(@types/node@22.10.6))
       cz-conventional-changelog:
         specifier: ^3.3.0
-        version: 3.3.0(@types/node@20.17.12)(typescript@5.7.3)
+        version: 3.3.0(@types/node@22.10.6)(typescript@5.7.3)
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -67,7 +67,7 @@ importers:
         version: 5.7.3
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.17.12)
+        version: 1.6.0(@types/node@22.10.6)
 
   packages/biome-config:
     devDependencies:
@@ -99,13 +99,13 @@ importers:
         version: 4.1.0
       '@vitest/coverage-c8':
         specifier: ^0.33.0
-        version: 0.33.0(vitest@1.6.0(@types/node@20.17.12))
+        version: 0.33.0(vitest@1.6.0(@types/node@22.10.6))
       tsup:
         specifier: ^8.3.5
         version: 8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.3)(yaml@2.6.1)
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.17.12)
+        version: 1.6.0(@types/node@22.10.6)
 
   packages/prettier-config:
     devDependencies:
@@ -114,13 +114,13 @@ importers:
         version: 4.1.0
       '@vitest/coverage-c8':
         specifier: ^0.33.0
-        version: 0.33.0(vitest@1.6.0(@types/node@20.17.12))
+        version: 0.33.0(vitest@1.6.0(@types/node@22.10.6))
       tsup:
         specifier: ^8.0.2
         version: 8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.3)(yaml@2.6.1)
       vitest:
         specifier: ^1.3.0
-        version: 1.6.0(@types/node@20.17.12)
+        version: 1.6.0(@types/node@22.10.6)
 
   packages/ts-config:
     devDependencies:
@@ -135,13 +135,13 @@ importers:
         version: 4.1.0
       '@vitest/coverage-c8':
         specifier: ^0.33.0
-        version: 0.33.0(vitest@1.6.0(@types/node@20.17.12))
+        version: 0.33.0(vitest@1.6.0(@types/node@22.10.6))
       tsup:
         specifier: ^8.3.5
         version: 8.3.5(jiti@2.4.2)(postcss@8.4.49)(typescript@5.7.3)(yaml@2.6.1)
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.17.12)
+        version: 1.6.0(@types/node@22.10.6)
 
 packages:
 
@@ -876,8 +876,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@20.17.12':
-    resolution: {integrity: sha512-vo/wmBgMIiEA23A/knMfn/cf37VnuF52nZh5ZoW0GWt4e4sxNquibrMRJ7UQsA06+MBx9r/H1jsI9grYjQCQlw==}
+  '@types/node@22.10.6':
+    resolution: {integrity: sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -3144,8 +3144,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
   unicorn-magic@0.3.0:
     resolution: {integrity: sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==}
@@ -3393,11 +3393,11 @@ snapshots:
   '@biomejs/cli-win32-x64@1.9.4':
     optional: true
 
-  '@commitlint/cli@18.6.1(@types/node@20.17.12)(typescript@5.7.3)':
+  '@commitlint/cli@18.6.1(@types/node@22.10.6)(typescript@5.7.3)':
     dependencies:
       '@commitlint/format': 18.6.1
       '@commitlint/lint': 18.6.1
-      '@commitlint/load': 18.6.1(@types/node@20.17.12)(typescript@5.7.3)
+      '@commitlint/load': 18.6.1(@types/node@22.10.6)(typescript@5.7.3)
       '@commitlint/read': 18.6.1
       '@commitlint/types': 18.6.1
       execa: 5.1.1
@@ -3457,7 +3457,7 @@ snapshots:
       '@commitlint/rules': 18.6.1
       '@commitlint/types': 18.6.1
 
-  '@commitlint/load@18.6.1(@types/node@20.17.12)(typescript@5.7.3)':
+  '@commitlint/load@18.6.1(@types/node@22.10.6)(typescript@5.7.3)':
     dependencies:
       '@commitlint/config-validator': 18.6.1
       '@commitlint/execute-rule': 18.6.1
@@ -3465,7 +3465,7 @@ snapshots:
       '@commitlint/types': 18.6.1
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.7.3)
-      cosmiconfig-typescript-loader: 5.1.0(@types/node@20.17.12)(cosmiconfig@8.3.6(typescript@5.7.3))(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 5.1.0(@types/node@22.10.6)(cosmiconfig@8.3.6(typescript@5.7.3))(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3474,7 +3474,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/load@19.6.1(@types/node@20.17.12)(typescript@5.7.3)':
+  '@commitlint/load@19.6.1(@types/node@22.10.6)(typescript@5.7.3)':
     dependencies:
       '@commitlint/config-validator': 19.5.0
       '@commitlint/execute-rule': 19.5.0
@@ -3482,7 +3482,7 @@ snapshots:
       '@commitlint/types': 19.5.0
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.7.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@20.17.12)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.10.6)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3926,7 +3926,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.6
     optional: true
 
   '@types/estree@1.0.6': {}
@@ -3938,9 +3938,9 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@20.17.12':
+  '@types/node@22.10.6':
     dependencies:
-      undici-types: 6.19.8
+      undici-types: 6.20.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -4029,16 +4029,16 @@ snapshots:
 
   '@ungap/structured-clone@1.2.1': {}
 
-  '@vitest/coverage-c8@0.33.0(vitest@1.6.0(@types/node@20.17.12))':
+  '@vitest/coverage-c8@0.33.0(vitest@1.6.0(@types/node@22.10.6))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       c8: 7.14.0
       magic-string: 0.30.17
       picocolors: 1.1.1
       std-env: 3.8.0
-      vitest: 1.6.0(@types/node@20.17.12)
+      vitest: 1.6.0(@types/node@22.10.6)
 
-  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.17.12))':
+  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@22.10.6))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -4053,7 +4053,7 @@ snapshots:
       std-env: 3.8.0
       strip-literal: 2.1.1
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.17.12)
+      vitest: 1.6.0(@types/node@22.10.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -4381,10 +4381,10 @@ snapshots:
 
   commander@4.1.1: {}
 
-  commitizen@4.3.1(@types/node@20.17.12)(typescript@5.7.3):
+  commitizen@4.3.1(@types/node@22.10.6)(typescript@5.7.3):
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0(@types/node@20.17.12)(typescript@5.7.3)
+      cz-conventional-changelog: 3.3.0(@types/node@22.10.6)(typescript@5.7.3)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -4443,16 +4443,16 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  cosmiconfig-typescript-loader@5.1.0(@types/node@20.17.12)(cosmiconfig@8.3.6(typescript@5.7.3))(typescript@5.7.3):
+  cosmiconfig-typescript-loader@5.1.0(@types/node@22.10.6)(cosmiconfig@8.3.6(typescript@5.7.3))(typescript@5.7.3):
     dependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.6
       cosmiconfig: 8.3.6(typescript@5.7.3)
       jiti: 1.21.7
       typescript: 5.7.3
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@20.17.12)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@22.10.6)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
     dependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.6
       cosmiconfig: 9.0.0(typescript@5.7.3)
       jiti: 2.4.2
       typescript: 5.7.3
@@ -4483,16 +4483,16 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  cz-conventional-changelog@3.3.0(@types/node@20.17.12)(typescript@5.7.3):
+  cz-conventional-changelog@3.3.0(@types/node@22.10.6)(typescript@5.7.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.1(@types/node@20.17.12)(typescript@5.7.3)
+      commitizen: 4.3.1(@types/node@22.10.6)(typescript@5.7.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.6.1(@types/node@20.17.12)(typescript@5.7.3)
+      '@commitlint/load': 19.6.1(@types/node@22.10.6)(typescript@5.7.3)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
@@ -6560,7 +6560,7 @@ snapshots:
       which-boxed-primitive: 1.1.1
     optional: true
 
-  undici-types@6.19.8: {}
+  undici-types@6.20.0: {}
 
   unicorn-magic@0.3.0: {}
 
@@ -6585,13 +6585,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-node@1.6.0(@types/node@20.17.12):
+  vite-node@1.6.0(@types/node@22.10.6):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.11(@types/node@20.17.12)
+      vite: 5.4.11(@types/node@22.10.6)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6603,16 +6603,16 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.11(@types/node@20.17.12):
+  vite@5.4.11(@types/node@22.10.6):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
       rollup: 4.29.2
     optionalDependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.6
       fsevents: 2.3.3
 
-  vitest@1.6.0(@types/node@20.17.12):
+  vitest@1.6.0(@types/node@22.10.6):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -6631,11 +6631,11 @@ snapshots:
       strip-literal: 2.1.1
       tinybench: 2.9.0
       tinypool: 0.8.4
-      vite: 5.4.11(@types/node@20.17.12)
-      vite-node: 1.6.0(@types/node@20.17.12)
+      vite: 5.4.11(@types/node@22.10.6)
+      vite-node: 1.6.0(@types/node@22.10.6)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.17.12
+      '@types/node': 22.10.6
     transitivePeerDependencies:
       - less
       - lightningcss
