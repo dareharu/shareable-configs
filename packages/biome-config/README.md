@@ -38,7 +38,7 @@ You can use `@dareharu/biome-config` base [`biome.jsonc`](biome.jsonc) by extend
 
 ```json
 {
-  "extends": "@dareharu/biome-config"
+  "extends": ["@dareharu/biome-config"]
 }
 ```
 
